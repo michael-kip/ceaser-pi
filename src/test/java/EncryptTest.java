@@ -1,5 +1,5 @@
 import static org.junit.Assert.*;
 
-public class encryptTest {
+public class EncryptTest {
 
 }

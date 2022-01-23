@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="EncryptTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-01-23T19:39:28" hostname="moringa-ThinkPad-X260" time="0.009">
+  <properties/>
+  <testcase name="newEncrypt_instantiatesCorrectly" classname="EncryptTest" time="0.009"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

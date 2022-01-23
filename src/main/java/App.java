@@ -7,6 +7,8 @@ public class App {
         BufferedReader myBufferedReader = new BufferedReader( new InputStreamReader(System.in));
         Scanner myScanner = new Scanner(System.in);
         boolean isRunCipherApp = true;
+
+        while (isRunCipherApp){}
     }
 }
 

@@ -22,6 +22,14 @@ public class App {
                 Encrypt myEncrypt = new Encrypt(inputReceived, providedKey);
                 String encryptedChar = myEncrypt.Encrypt(inputReceived, providedKey);
                 System.out.println("The encrypted message is: " + encryptedChar);
+            } else if (optionSelected.equals("decrypt")){
+                System.out.println("Enter a message to decrypt");
+                String inputToDecrypt = myBufferedReader.readLine();
+                System.out.println("Enter a decryption key");
+                int providedKey = myScanner.nextInt();
+                Decrypt myDecrypt = new Decrypt(inputToDecrypt, providedKey);
+                String encryptedChar = myDecrypt.Decrypt(inputToDecrypt, providedKey);
+                System.out.println("The decrypted message is: " + encryptedChar);
             }
         }
     }

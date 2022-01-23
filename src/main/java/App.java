@@ -30,6 +30,10 @@ public class App {
                 Decrypt myDecrypt = new Decrypt(inputToDecrypt, providedKey);
                 String encryptedChar = myDecrypt.Decrypt(inputToDecrypt, providedKey);
                 System.out.println("The decrypted message is: " + encryptedChar);
+            } else  if (optionSelected.equals("exit")){
+                isRunCipherApp = false;
+            } else {
+                System.out.println("Error, invalid input!");
             }
         }
     }

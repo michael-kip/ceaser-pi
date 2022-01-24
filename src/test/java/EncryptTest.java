@@ -9,12 +9,12 @@ public class EncryptTest {
         assertEquals(true, testEncrypt instanceof Encrypt);
     }
     @Test
-    public void  newEncrypt_readsAString_a(){
+    public void  newEncrypt_ifInputAString(){
         Encrypt testEncrypt = new Encrypt("baba", 1);
         assertEquals("baba", testEncrypt.getInputForEncryption());
     }
     @Test
-    public void newEncrypt_readKey_1(){
+    public void newEncrypt_ifInputIsKeyInt(){
         Encrypt testEncrypt = new Encrypt("baba", 1);
         assertEquals(1, testEncrypt.getEncryptionKey());
     }

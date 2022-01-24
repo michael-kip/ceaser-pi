@@ -9,6 +9,10 @@ public class Encrypt {
     public int getEncryptionKey(){
         return encryptionKey;
     }
+    public String isEncrypted(){
+        inputForEncryption = "c";
+        return inputForEncryption;
+    }
 
     public Encrypt(String inputForEncryption, int encryptionKey){
         this.inputForEncryption = inputForEncryption;

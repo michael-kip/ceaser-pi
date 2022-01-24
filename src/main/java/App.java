@@ -11,7 +11,7 @@ public class App {
 
         while (isRunCipherApp){
             System.out.println("Caesar Cipher");
-            System.out.println("Enter decrypt/encrypt or exit");
+            System.out.println("Enter: decrypt to decode message, encrypt to encode message and exit to terminate program");
             String optionSelected = myBufferedReader.readLine();
 
             if (optionSelected.equals("encrypt")){

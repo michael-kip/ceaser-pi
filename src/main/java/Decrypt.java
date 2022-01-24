@@ -25,7 +25,7 @@ public class Decrypt {
                 newCharIndex = alphabet.length() + newCharIndex;
             }
             char decryptedChar = alphabet.charAt(newCharIndex);
-            inputForEncryption = inputForEncryption + decryptedChar;
+            decryptionResults = decryptionResults + decryptedChar;
         }
         return decryptionResults;
 

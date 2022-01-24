@@ -19,17 +19,17 @@ public class EncryptTest {
         assertEquals(1, testEncrypt.getEncryptionKey());
     }
     @Test
-    public void newEncrypt_replaceLetter_a(){
+    public void newEncrypt_replaceLetter(){
         Encrypt testEncrypt = new Encrypt("a", 2);
         assertEquals("c", testEncrypt.isEncrypted());
     }
     @Test
-    public void newEncrypt_replaceLetterByUsingKey_c(){
+    public void newEncrypt_replaceSingleLetter(){
         Encrypt testEncrypt = new Encrypt("a", 2);
         assertEquals("C", testEncrypt.Encrypt("a", 2));
     }
     @Test
-    public void newEncrypt_replaceMultipleLettersByUsingKey_cde(){
+    public void newEncrypt_replaceMultipleLetters(){
         Encrypt testEncrypt = new Encrypt("abc", 2);
         assertEquals("CDE", testEncrypt.Encrypt("abc", 2));
     }

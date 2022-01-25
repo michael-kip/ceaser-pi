@@ -11,7 +11,7 @@ public class DecryptTest {
     @Test
     public void newDecrypt_ifInputIsAString(){
         Decrypt testDecrypt = new Decrypt("bcd", 1);
-        assertEquals("ABC", testDecrypt.getInputForEncryption());
+        assertEquals("bcd", testDecrypt.getInputForEncryption());
     }
     @Test
     public void newDecrypt_ifKeyInputIsInt(){

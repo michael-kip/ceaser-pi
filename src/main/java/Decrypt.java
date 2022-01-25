@@ -1,30 +1,30 @@
 public class Decrypt {
-    String alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-    private String inputForEncryption;
-    private int encryptionKey;
+    private String mAlphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    private String mInputForEncryption;
+    private int mEncryptionKey;
 
     public String getInputForEncryption(){
-        return inputForEncryption;
+        return mInputForEncryption;
     }
     public int getEncryptionKey(){
-        return encryptionKey;
+        return mEncryptionKey;
     }
 
     public Decrypt(String inputForEncryption, int encryptionKey){
-        this.inputForEncryption = inputForEncryption;
-        this.encryptionKey = encryptionKey;
+        this.mInputForEncryption = inputForEncryption;
+        this.mEncryptionKey = encryptionKey;
     }
 
     public String Decrypt(String inputForEncryption, int encryptionKey){
         inputForEncryption = inputForEncryption.toUpperCase();
         String decryptionResults = "";
         for (int i=0; i<inputForEncryption.length(); i++){
-            int characterIndex = alphabet.indexOf(inputForEncryption.charAt(i));
+            int characterIndex = mAlphabet.indexOf(inputForEncryption.charAt(i));
             int newCharIndex = (characterIndex - encryptionKey) % 26;
             if (newCharIndex < 0){
-                newCharIndex = alphabet.length() + newCharIndex;
+                newCharIndex = mAlphabet.length() + newCharIndex;
             }
-            char decryptedChar = alphabet.charAt(newCharIndex);
+            char decryptedChar = mAlphabet.charAt(newCharIndex);
             decryptionResults = decryptionResults + decryptedChar;
         }
         return decryptionResults;

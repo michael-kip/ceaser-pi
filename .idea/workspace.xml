@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7b73bab6-c4f6-427a-9d22-4e071b9ee950" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Decrypt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Decrypt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DecryptTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DecryptTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -82,13 +80,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.DecryptTest.newDecrypt_replaceSingleLetter">
-    <configuration name="DecryptTest.newDecrypt_ifInputIsAString" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="App" />
+      <module name="ceasar-cipher.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EncryptTest.newEncrypt_ifInputAString" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;DecryptTest.newDecrypt_ifInputIsAString&quot;" />
+        <option name="scriptParameters" value="--tests &quot;EncryptTest.newEncrypt_ifInputAString&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -103,12 +108,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="DecryptTest.newDecrypt_replaceSingleLetter" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="EncryptTest.newEncrypt_inputIsKeyInt" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;DecryptTest.newDecrypt_replaceSingleLetter&quot;" />
+        <option name="scriptParameters" value="--tests &quot;EncryptTest.newEncrypt_inputIsKeyInt&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -123,12 +128,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="EncryptTest.newEncrypt_instantiatesCorrectly" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="EncryptTest.newEncrypt_replaceLetter" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;EncryptTest.newEncrypt_instantiatesCorrectly&quot;" />
+        <option name="scriptParameters" value="--tests &quot;EncryptTest.newEncrypt_replaceLetter&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -143,32 +148,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="EncryptTest.newEncrypt_readKey_1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="EncryptTest.newEncrypt_replaceMultipleLetters" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;EncryptTest.newEncrypt_readKey_1&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="EncryptTest.newEncrypt_replaceMultipleLettersByUsingKey_cde" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;EncryptTest.newEncrypt_replaceMultipleLettersByUsingKey_cde&quot;" />
+        <option name="scriptParameters" value="--tests &quot;EncryptTest.newEncrypt_replaceMultipleLetters&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -204,11 +189,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.DecryptTest.newDecrypt_replaceSingleLetter" />
-        <item itemvalue="Gradle.DecryptTest.newDecrypt_ifInputIsAString" />
-        <item itemvalue="Gradle.EncryptTest.newEncrypt_instantiatesCorrectly" />
-        <item itemvalue="Gradle.EncryptTest.newEncrypt_replaceMultipleLettersByUsingKey_cde" />
-        <item itemvalue="Gradle.EncryptTest.newEncrypt_readKey_1" />
+        <item itemvalue="Application.App" />
+        <item itemvalue="Gradle.EncryptTest.newEncrypt_ifInputAString" />
+        <item itemvalue="Gradle.EncryptTest.newEncrypt_inputIsKeyInt" />
+        <item itemvalue="Gradle.EncryptTest.newEncrypt_replaceLetter" />
+        <item itemvalue="Gradle.EncryptTest.newEncrypt_replaceMultipleLetters" />
       </list>
     </recent_temporary>
   </component>
@@ -253,6 +238,19 @@
           <url>file://$PROJECT_DIR$/src/test/java/EncryptTest.java</url>
           <line>20</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/EncryptTest.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/EncryptTest.java</url>
+          <line>31</line>
+          <properties class="EncryptTest" method="newEncrypt_replaceMultipleLetters">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
